@@ -11,14 +11,18 @@ class Nav extends Component {
   }
 
   render() {
+    let navImage = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADUhTbqbOukvOLy4xDyiecXhs_7q0PX5KBgcJR9OYBhZltM_9Xg'
+    
     return (
       <div>
-
-        <Link to='/Home' >Home</Link>
-        <Link to='/About' >About</Link>
-        <Link to='/Contact' >Contact</Link>
-        <Link to='/' >Landing</Link>
-        
+        <img src={navImage} alt="Mojave Corporation Logo"/>
+        <h1>Mojave Corporation</h1>
+        <ul>
+          <li><Link to='/Home' >Home</Link></li>
+          <li><Link to='/About' >About</Link></li>
+          <li><Link to='/Contact' >Contact</Link></li>
+          <li><Link to='/' >Landing</Link></li>
+        </ul>
       </div>
     )
   }
