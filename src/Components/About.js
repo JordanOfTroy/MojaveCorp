@@ -24,13 +24,16 @@ class About extends Component {
         <img src={foundersImage} alt="Image of the founders of Mojave Corporation"/>
         <article>
           <h1>Corporate History</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vitae laboriosam reiciendis enim culpa laudantium dignissimos commodi vel illum maxime corporis, tempora doloribus quas sunt voluptatum fugit, numquam pariatur ad!
-          Amet perferendis facere ea tempore minima nihil itaque. Accusamus, architecto esse. Qui maxime magni placeat quos labore, fugit, facere veniam quae provident reiciendis earum magnam ipsam. Consequuntur quisquam non eos?
-          Saepe corrupti adipisci esse molestiae error, laudantium itaque iste ut repudiandae amet dolorem id, et in delectus impedit ex cumque necessitatibus aliquid recusandae illo architecto vel quis numquam. Dolorem, voluptatem!
-          Veniam minus vitae officia ea sunt nulla ratione reprehenderit aliquam recusandae laudantium eius, voluptatibus, est perferendis earum cum odio, voluptas deleniti eos nesciunt ipsum nemo. Culpa saepe quia corporis quis!
-          Illo est ab saepe corporis cumque repellendus dignissimos incidunt officia. Quasi veniam voluptas quam reiciendis aspernatur mollitia tenetur qui aut exercitationem officia neque vitae dolores repudiandae a, quo, minus accusantium.
-          Esse illum facilis similique incidunt sed iure commodi. Qui, necessitatibus eveniet dolore sapiente doloremque nostrum assumenda, repellat non earum architecto numquam? Asperiores illo incidunt ducimus placeat harum optio unde facere?
-          Culpa, commodi dignissimos fuga ut ullam doloribus suscipit debitis beatae soluta iste in dolor necessitatibus nemo non sequi minima nulla odit adipisci corporis. Consequuntur distinctio laudantium commodi provident. A, itaque.</p>
+
+          <p>
+          The founders of Mojave Corporation started out in their family cleaning business.  After many years of working in the cleaning and restoration side of the industry, we moved into retail sales and support for the cleaning and restoration industry.  This family also owns and runs several restoration franchises in California dealing with floods, fire and mold damage situations.  
+          <br/><br/>
+          Being that we only sell products that are tried and tested by our staff in our other businesses, our customers have come to trust our opinions and recommendations.  
+          <br/><br/>
+          ​Our heat systems have become a favorite amongst not only restoration contractors but also for pest control companies, hotels and multi-unit housings for the eradication of bed bugs through the use of heat.  Killer Heat was opened to specialize in the equipment, training and consultation services for the hospitality industry in dealing with bed bug infestations.  
+          <br/><br/>
+          ​All the employees of Mojave Corporation are Crime-Free Certified.  We have joined with other great companies who also provide this peace of mind to their customers.  ChooseCrimeFree.com is a group of companies who market together in their own market places letting their community have  place to go to find great companies who care enough to go through such steps.  It's great to know who you are working with and that all the employees of these companies are not only certified crime free upon hiring but each and every year there after.  Besides the extensive background testing that they undergo, they also drug test their employees.  We are all dedicated to providing you excellent customer service with employees who are fantastic. 
+          </p>
         </article>
         <section className="subcids">
 

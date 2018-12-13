@@ -12,8 +12,8 @@ class Contact extends Component {
   }
 
   render() {
-    let email='email@mojavecorp.com'
-    let phone = '###-###-####'
+    let email='support@mojavecorporation.com'
+    let phone = '866-670-1395'
     let address = 'P.O. Box ###### somestreet Ave, Provo, UT 84604'
     return (
       <div>
