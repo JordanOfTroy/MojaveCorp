@@ -1,6 +1,10 @@
 import React, {Component} from 'react' 
 import Nav from './Nav'
 import Footer from './Footer'
+import MojaveSupply from './assets/mojaveSupply.jpg'
+import KillerHeat from './assets/killerHeat.jpg'
+import CCF from './assets/CCF.jpg'
+
 
 class About extends Component {
   constructor(props) {
@@ -13,6 +17,7 @@ class About extends Component {
 
   render() {
     let foundersImage = 'https://scontent.fmkc1-1.fna.fbcdn.net/v/t1.0-0/p526x296/10261987_10205774945269473_2777789207929003414_n.jpg?_nc_cat=107&_nc_ht=scontent.fmkc1-1.fna&oh=be2a0e42812003bb8f2d5f4568e1cb6f&oe=5CB136A1'
+    
     return (
       <div>
         <Nav/>
@@ -28,26 +33,42 @@ class About extends Component {
           Culpa, commodi dignissimos fuga ut ullam doloribus suscipit debitis beatae soluta iste in dolor necessitatibus nemo non sequi minima nulla odit adipisci corporis. Consequuntur distinctio laudantium commodi provident. A, itaque.</p>
         </article>
         <section className="subcids">
+
           <div className="subcid">
-            <img src="#" alt="company logo" className="subcid_image"/>
+            <a href="http://www.mojavesupply.com/" target="_blank">
+              <img src={MojaveSupply} alt="company logo" className="subcid_image"/> 
+            </a>
             <div className="description">
-              <h2>Company One Name</h2>
+              <a href="http://www.mojavesupply.com/" target="_blank">
+                <h2>Mojave Supply</h2>
+              </a>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa nam quidem nemo nostrum aperiam fugiat nobis quo voluptatum unde in dolorem repudiandae deserunt rem magni dolor, animi iusto numquam.</p>
             </div>
           </div>
+
           <div className="subcid">
-            <img src="#" alt="company logo" className="subcid_image"/>
+            <a href="http://www.killerheat.com/" target='_blank'>
+              <img src={KillerHeat} alt="company logo" className="subcid_image"/>
+            </a>
             <div className="description">
-              <h2>Company Two Name</h2>
+              <a href="http://www.killerheat.com/" target='_blank'>
+                <h2>Killer Heat</h2>
+              </a>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa nam quidem nemo nostrum aperiam fugiat nobis quo voluptatum unde in dolorem repudiandae deserunt rem magni dolor, animi iusto numquam.</p>
             </div>
           </div>
+
           <div className="subcid">
-            <img src="#" alt="company logo" className="subcid_image"/>
+            <a href="http://www.choosecrimefree.com/" target='_blank'>
+              <img src={CCF} alt="company logo" className="subcid_image"/>
+            </a>
             <div className="description">
-              <h2>Company Three Name</h2>
+              <a href="http://www.choosecrimefree.com/" target='_blank'>
+                <h2>Choose Crime Free</h2>
+              </a>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa nam quidem nemo nostrum aperiam fugiat nobis quo voluptatum unde in dolorem repudiandae deserunt rem magni dolor, animi iusto numquam.</p>
             </div>
+
           </div>
         </section>
         <Footer/>
