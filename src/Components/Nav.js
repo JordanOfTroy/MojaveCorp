@@ -23,6 +23,11 @@ class Nav extends Component {
           <li><Link to='/Contact' >Contact</Link></li>
           <li><Link to='/' >Landing</Link></li>
         </ul>
+        <div className="burger_menu">
+          <div className="patty top_patty"></div>
+          <div className="patty middle_patty"></div>
+          <div className="patty bottom_patty"></div>
+        </div>
       </div>
     )
   }

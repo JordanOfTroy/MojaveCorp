@@ -5,6 +5,9 @@
 
 /* ----- XS: Mobile Phones ----- */
 @media(max-width: 400px) {
+
+  /* ----- Nav Bar ----- */
+
   #nav {
     display: flex;
     flex-direction: row;
@@ -14,7 +17,7 @@
   #nav ul {
     list-style-type: none;
     position: relative;
-    /* top: -150px; */
+    top: -112px;
   }
 
   #nav ul li {
@@ -25,5 +28,25 @@
 
   .nav_logo {
     display: none;
+  }
+
+  .burger_menu {
+    /* border: solid black 1px; */
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 250px;
+  }
+
+  .patty {
+    height: 6px;
+    width: 40px;
+    margin: 4px;
+    background: black;
+    border-radius: 50px;
   }
 }
