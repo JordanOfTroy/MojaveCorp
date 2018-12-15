@@ -62,16 +62,27 @@ class About extends Component {
           </div>
 
           <div className="subcid">
-            <a href="http://www.choosecrimefree.com/" target='_blank'>
-              <img src={CCF} alt="company logo" className="subcid_image"/>
+            <a href="http://www.testingformeth.com/" target='_blank'>
+              <img src='#' alt="company logo" className="subcid_image"/>
             </a>
             <div className="description">
-              <a href="http://www.choosecrimefree.com/" target='_blank'>
-                <h2>Choose Crime Free</h2>
+              <a href="http://www.testingformeth.com/" target='_blank'>
+                <h2>testingformeth</h2>
               </a>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa nam quidem nemo nostrum aperiam fugiat nobis quo voluptatum unde in dolorem repudiandae deserunt rem magni dolor, animi iusto numquam.</p>
             </div>
+          </div>
 
+          <div className="subcid">
+            <a href="http://www.cleaningupmeth.com/" target='_blank'>
+              <img src='#' alt="company logo" className="subcid_image"/>
+            </a>
+            <div className="description">
+              <a href="http://www.cleaningupmeth.com/" target='_blank'>
+                <h2>cleaningupmeth</h2>
+              </a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa nam quidem nemo nostrum aperiam fugiat nobis quo voluptatum unde in dolorem repudiandae deserunt rem magni dolor, animi iusto numquam.</p>
+            </div>
           </div>
         </section>
         <Footer/>
