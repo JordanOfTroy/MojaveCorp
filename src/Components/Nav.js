@@ -14,8 +14,8 @@ class Nav extends Component {
     let navImage = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADUhTbqbOukvOLy4xDyiecXhs_7q0PX5KBgcJR9OYBhZltM_9Xg'
     
     return (
-      <div>
-        <img src={navImage} alt="Mojave Corporation Logo"/>
+      <div id='nav'>
+        <img src={navImage} alt="Mojave Corporation Logo" className='nav_logo'/>
         <h1>Mojave Corporation</h1>
         <ul>
           <li><Link to='/Home' >Home</Link></li>

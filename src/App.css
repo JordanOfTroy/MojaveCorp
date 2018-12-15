@@ -2,3 +2,28 @@
   border: solid #e14b4b 1px;
   box-sizing: box-border;
 } */
+
+/* ----- XS: Mobile Phones ----- */
+@media(max-width: 400px) {
+  #nav {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  #nav ul {
+    list-style-type: none;
+    position: relative;
+    /* top: -150px; */
+  }
+
+  #nav ul li {
+    border: solid black 1px;
+    padding: 5px 10px;
+    text-align: center; 
+  }
+
+  .nav_logo {
+    display: none;
+  }
+}
