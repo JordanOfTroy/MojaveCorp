@@ -16,12 +16,14 @@
   #nav ul {
     list-style-type: none;
     position: relative;
-    top: -112px;
+    top: -160px;
+    left: 295px;
+    transition-duration: .8s;
   }
 
   #nav ul.open {
     position: relative;
-    top: 20px;
+    top: 60px;
   }
 
   #nav ul li {
@@ -29,6 +31,11 @@
     padding: 10px 20px;
     text-align: center; 
     font-size: 1rem;
+    text-decoration: none;
+  }
+
+  .link {
+    text-decoration: none;
   }
 
   .nav_logo {
@@ -44,7 +51,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 250px;
+    right: 10px;
   }
 
   .patty {
