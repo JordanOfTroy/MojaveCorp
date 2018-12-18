@@ -6,65 +6,42 @@
 /* ----- XS: Mobile Phones ----- */
 @media(max-width: 400px) {
 
-  /* ----- Nav Bar ----- */
-
-  #nav {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 0;
+  html {
     width: 100vw;
-    height: 50px;
-    background-color: #907a70;  
+    background-color: pink;
+  }
+  .banner_img {
+    width: 100vw;
+    height: 200px;
+    background-color: grey;
   }
 
-  #nav ul {
-    list-style-type: none;
+  /* ----- Nav Bar ----- */
+  #nav {
+    width: 100vw;
+    background-color: aqua;
     position: relative;
-    top: -190px;
-    left: 293px;
-    transition-duration: .8s;
-  }
-
-  #nav ul.open {
-    position: relative;
-    top: 60px;
-  }
-
-  #nav ul li {
-    border: solid black 1px;
-    padding: 10px 20px;
-    text-align: center; 
-    font-size: 1rem;
-    text-decoration: none;
-    margin-bottom: 10px;
-  }
-
-  .link {
-    text-decoration: none;
-  }
-
-  .nav_logo {
-    display: none;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .burger_menu {
-    /* border: solid black 1px; */
-    height: 60px;
-    width: 60px;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    right: 10px;
+    /* border: solid 1px red; */
+    height: 60px;
   }
 
   .patty {
-    height: 6px;
-    width: 40px;
-    margin: 4px;
-    background: black;
-    border-radius: 50px;
+    height: 5px;
+    width: 30px;
+    border-radius: 100px;
+    background-color: black;
+    margin: 3px 0px;
   }
 }

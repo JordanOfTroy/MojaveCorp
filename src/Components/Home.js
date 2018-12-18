@@ -18,7 +18,8 @@ class Home extends Component {
     return (
       <div>
         <Nav/>
-        <img src={corpImage} alt="Mojave Corp Image"/>
+        {/* <img src={corpImage} alt="Mojave Corp Image"/> */}
+        <div className="banner_img"><span>Some cool image here</span></div>
         <section>
           <h1>Mojave Corporation Values</h1>
 
