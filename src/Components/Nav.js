@@ -24,9 +24,9 @@ class Nav extends Component {
       <div id='nav'>
         <h1>Mojave Corporation</h1>
         <ul className = {showDrawer ? 'open' : 'close'}>
-          <li><Link className='link' to='/' >Home</Link></li>
-          <li><Link className='link' to='/About' >About</Link></li>
-          <li><Link className='link' to='/Contact' >Contact</Link></li>
+          <li><Link className='link link_1' to='/' >Home</Link></li>
+          <li><Link className='link link_2' to='/About' >About</Link></li>
+          <li><Link className='link link_3' to='/Contact' >Contact</Link></li>
         </ul>
         <div className={"burger_menu" + (showDrawer ? ' crossed' : ' bars')} onClick={()=>this.handleClick()}>
           <div className="patty top_patty"></div>

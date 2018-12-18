@@ -1,7 +1,4 @@
-/* * {
-  border: solid #e14b4b 1px;
-  box-sizing: box-border;
-} */
+
 
 /* ----- XS: Mobile Phones ----- */
 @media(max-width: 400px) {
@@ -9,6 +6,7 @@
   html {
     width: 100vw;
     background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .banner_img {
     width: 100vw;
@@ -19,12 +17,35 @@
   /* ----- Nav Bar ----- */
   #nav {
     width: 100vw;
+    height: 30px;
     background-color: aqua;
     position: relative;
     top: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  #nav h1 {
+
+  }
+
+  #nav ul {
+    list-style-type: none;
+    /* border: solid 2px red; */
+    position: relative;
+    top: 60px
+  }
+
+  #nav ul li {
+    position: relative;
+    margin-bottom: 4px;
+    border:  solid black 1px;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 5px 3px black;
+    font-size: 18px;
   }
 
   .burger_menu {
@@ -34,14 +55,17 @@
     justify-content: center;
     align-items: center;
     /* border: solid 1px red; */
-    height: 60px;
+    /* height: 60px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+
   }
 
   .patty {
-    height: 5px;
+    height: 4px;
     width: 30px;
     border-radius: 100px;
     background-color: black;
-    margin: 3px 0px;
+    margin: 2px 0px;
   }
 }
