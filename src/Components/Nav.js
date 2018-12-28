@@ -29,9 +29,9 @@ class Nav extends Component {
           <li><Link className='link link_3' to='/Contact' >Contact</Link></li>
         </ul>
         <div className={"burger_menu" + (showDrawer ? ' crossed' : ' bars')} onClick={()=>this.handleClick()}>
-          <div className="patty top_patty"></div>
-          <div className="patty middle_patty"></div>
-          <div className="patty bottom_patty"></div>
+          <div className={"patty top_patty" + (showDrawer ? ' lean_left' : 'bar')}></div>
+          <div className={"patty middle_patty" + (showDrawer ? ' go_away' : 'bar')}></div>
+          <div className={"patty bottom_patty" + (showDrawer ? ' lean_right' : 'bar')}></div>
         </div>
       </div>
     )
