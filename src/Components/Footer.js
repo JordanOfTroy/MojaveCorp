@@ -11,7 +11,7 @@ class Footer extends Component {
 
   render() {
     return (
-      <div>
+      <div id='footer'>
         <h1>Footer.js</h1>
       </div>
     )

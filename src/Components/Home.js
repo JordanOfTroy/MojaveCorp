@@ -18,9 +18,9 @@ class Home extends Component {
   render() {
     let corpImage = 'https://nbc.clientmediaserver.com/20170306_pyeongchang_countdown/images/gen_logo.jpg'
     return (
-      <div>
+      <div id='home'>
 
-        <h1>Companies in the Mojave Corporation Family</h1>
+        <h1 className='home_Title'>Companies in the Mojave Corporation Family</h1>
 
         <section className="subcids">
 

@@ -1,98 +1,128 @@
+/* ----- Variables ------ */
+:root{
+  --mainColor: #73aba6;
+  --secColor: #907a70;
+  --black: #1b1b1b;
+  --white: #edf6f6;
+}
 
 
-/* ----- XS: Mobile Phones ----- */
-@media(max-width: 400px) {
+/* ----- Universal Styling ----- */
+/* Universal */
 
-  html {
-    width: 100vw;
-    background-color: pink;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .banner_img {
-    width: 100vw;
-    height: 200px;
-    background-color: grey;
-  }
+h1, h2, p, span {
+  color: var(--black);
+}
 
-  /* ----- Nav Bar ----- */
-  #nav {
-    width: 100vw;
-    height: 30px;
-    background-color: aqua;
-    position: relative;
-    top: 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+a, Link, ul, li {
+  text-decoration: none;
 
-  #nav h1 {
+}
 
-  }
+#nav, #home, #about, #contact, #footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  #nav ul {
-    list-style-type: none;
-    /* border: solid 2px red; */
-    position: relative;
-    top: -85px;
-    background-color: white;
-    transition: 1s;
-  }
+}
 
-  #nav ul.open {
-    top: 56px
-  }
 
-  #nav ul li {
-    position: relative;
-    width: 120px;
-    margin-bottom: 4px;
-    border:  solid black 1px;
-    padding: 10px 15px;
-    text-align: center;
-    background-color: inherit;
-    box-shadow: 0px 5px 3px black;
-    font-size: 18px;
-  }
 
-  .burger_menu {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border: solid 1px red; */
-    /* height: 60px; */
-    margin-top: 5px;
-    margin-bottom: 5px;
+/* Nav */
+#nav {
+  flex-direction: row;
+  background-color: var(--mainColor);
+  width: 100vw;
+  height: 4rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* Home */
 
-  }
+/* About */
 
-  .patty {
-    height: 4px;
-    width: 30px;
-    border-radius: 100px;
-    background-color: black;
-    margin: 2px 0px;
-    transition: .7s;
-  }
+/* Contact */
 
-  .patty.lean_left {
-    /* background-color: red; */
-    transform: rotate(-405deg) translate(0px, 10px);
-   
-  }
+/* Footer */
 
-  .patty.go_away {
-    transform: rotate(720deg);
-    opacity: 0;
-  }
 
-  .patty.lean_right {
-    /* background-color: yellow; */
-    transform: rotate(405deg) translate(-1px, -11px);
-  }
-  
 
- 
+
+
+/* ----- Extra Small: iPhone 5/SE ----- */
+@media(max-width: 356) {
+/* Nav */
+
+/* Home */
+
+/* About */
+
+/* Contact */
+
+/* Footer */
+}
+
+
+
+
+/* ----- Small: larger cell phones ----- */
+@media(min-width: 360) and (max-width: 414) {
+/* Nav */
+
+/* Home */
+
+/* About */
+
+/* Contact */
+
+/* Footer */
+}
+
+
+
+
+/* ----- Medium: Small Tablets ----- */
+@media(min-width: 415) and (max-width: 767) {
+/* Nav */
+
+/* Home */
+
+/* About */
+
+/* Contact */
+
+/* Footer */
+}
+
+
+
+
+/* ----- Tables: Tablets ----- */
+@media(min-width: 768 ) and (max-width: 1024) {
+/* Nav */
+
+/* Home */
+
+/* About */
+
+/* Contact */
+
+/* Footer */
+}
+
+
+
+
+/* ----- Large: Computer Monitors ----- */
+@media(min-width: 1025) {
+/* Nav */
+
+/* Home */
+
+/* About */
+
+/* Contact */
+
+/* Footer */
 }

@@ -17,7 +17,7 @@ class About extends Component {
     let foundersImage = 'https://scontent.fmkc1-1.fna.fbcdn.net/v/t1.0-0/p526x296/10261987_10205774945269473_2777789207929003414_n.jpg?_nc_cat=107&_nc_ht=scontent.fmkc1-1.fna&oh=be2a0e42812003bb8f2d5f4568e1cb6f&oe=5CB136A1'
     
     return (
-      <div>
+      <div id='about'>
         <h1>Who We are</h1>
         
         <img src={foundersImage} alt="Image of the founders of Mojave Corporation"/>
