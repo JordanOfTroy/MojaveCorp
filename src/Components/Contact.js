@@ -1,6 +1,5 @@
 import React, {Component} from 'react' 
-import Nav from './Nav'
-import Footer from './Footer'
+
 
 class Contact extends Component {
   constructor(props) {
@@ -17,7 +16,6 @@ class Contact extends Component {
     let address = 'P.O. Box ###### somestreet Ave, Provo, UT 84604'
     return (
       <div>
-        <Nav/>
         <article>
           <h1>Contact Policy</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum omnis, excepturi praesentium iste illum inventore rerum ipsam voluptatem mollitia eaque ullam sunt at obcaecati sit reiciendis quas, saepe error consequatur.
@@ -35,7 +33,6 @@ class Contact extends Component {
           <h2>Mailing Address: <span className='contact_info'>{address}</span></h2>
           </div>
         </section>
-        <Footer/>
       </div>
     )
   }

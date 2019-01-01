@@ -1,6 +1,4 @@
 import React, {Component} from 'react' 
-import Nav from './Nav'
-import Footer from './Footer'
 import MojaveSupply from './assets/mojaveSupply.jpg'
 import KillerHeat from './assets/killerHeat.jpg'
 import CCF from './assets/CCF.jpg'
@@ -20,11 +18,11 @@ class About extends Component {
     
     return (
       <div>
-        <Nav/>
+        <h1>Who We are</h1>
+        
         <img src={foundersImage} alt="Image of the founders of Mojave Corporation"/>
+        
         <article>
-          <h1>Corporate History</h1>
-
           <p>
           The founders of Mojave Corporation started out in their family cleaning business.  After many years of working in the cleaning and restoration side of the industry, we moved into retail sales and support for the cleaning and restoration industry.  This family also owns and runs several restoration franchises in California dealing with floods, fire and mold damage situations.  
           <br/><br/>
@@ -35,57 +33,7 @@ class About extends Component {
           ​All the employees of Mojave Corporation are Crime-Free Certified.  We have joined with other great companies who also provide this peace of mind to their customers.  ChooseCrimeFree.com is a group of companies who market together in their own market places letting their community have  place to go to find great companies who care enough to go through such steps.  It's great to know who you are working with and that all the employees of these companies are not only certified crime free upon hiring but each and every year there after.  Besides the extensive background testing that they undergo, they also drug test their employees.  We are all dedicated to providing you excellent customer service with employees who are fantastic. 
           </p>
         </article>
-        <section className="subcids">
-
-          <div className="subcid">
-            <a href="http://www.mojavesupply.com/" target="_blank">
-              <img src={MojaveSupply} alt="company logo" className="subcid_image"/> 
-            </a>
-            <div className="description">
-              <a href="http://www.mojavesupply.com/" target="_blank">
-                <h2>Mojave Supply</h2>
-              </a>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa nam quidem nemo nostrum aperiam fugiat nobis quo voluptatum unde in dolorem repudiandae deserunt rem magni dolor, animi iusto numquam.</p>
-            </div>
-          </div>
-
-          <div className="subcid">
-            <a href="http://www.killerheat.com/" target='_blank'>
-              <img src={KillerHeat} alt="company logo" className="subcid_image"/>
-            </a>
-            <div className="description">
-              <a href="http://www.killerheat.com/" target='_blank'>
-                <h2>Killer Heat</h2>
-              </a>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa nam quidem nemo nostrum aperiam fugiat nobis quo voluptatum unde in dolorem repudiandae deserunt rem magni dolor, animi iusto numquam.</p>
-            </div>
-          </div>
-
-          <div className="subcid">
-            <a href="http://www.testingformeth.com/" target='_blank'>
-              <img src='#' alt="company logo" className="subcid_image"/>
-            </a>
-            <div className="description">
-              <a href="http://www.testingformeth.com/" target='_blank'>
-                <h2>testingformeth</h2>
-              </a>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa nam quidem nemo nostrum aperiam fugiat nobis quo voluptatum unde in dolorem repudiandae deserunt rem magni dolor, animi iusto numquam.</p>
-            </div>
-          </div>
-
-          <div className="subcid">
-            <a href="http://www.cleaningupmeth.com/" target='_blank'>
-              <img src='#' alt="company logo" className="subcid_image"/>
-            </a>
-            <div className="description">
-              <a href="http://www.cleaningupmeth.com/" target='_blank'>
-                <h2>cleaningupmeth</h2>
-              </a>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa nam quidem nemo nostrum aperiam fugiat nobis quo voluptatum unde in dolorem repudiandae deserunt rem magni dolor, animi iusto numquam.</p>
-            </div>
-          </div>
-        </section>
-        <Footer/>
+     
       </div>
     )
   }
