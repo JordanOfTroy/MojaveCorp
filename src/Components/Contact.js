@@ -13,26 +13,50 @@ class Contact extends Component {
   render() {
     let email='support@mojavecorporation.com'
     let phone = '866-670-1395'
+    let fax = '###-###-####'
     let address = 'P.O. Box ###### somestreet Ave, Provo, UT 84604'
     return (
       <div>
-        <article>
-          <h1>Contact Policy</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum omnis, excepturi praesentium iste illum inventore rerum ipsam voluptatem mollitia eaque ullam sunt at obcaecati sit reiciendis quas, saepe error consequatur.
-          Error repellendus dignissimos excepturi. Velit odio ducimus magni officia. Officiis qui voluptatem quod a dignissimos beatae amet placeat culpa ex explicabo reiciendis dolor non sint perspiciatis, alias, unde error neque!
-          Veniam placeat corrupti atque optio possimus eum, cum harum dicta accusantium natus, perspiciatis eligendi quas nisi, eaque illum molestias praesentium! Suscipit laudantium itaque ratione atque vitae dolorum ducimus nam velit.</p>
-        </article>
-        <section className='contact_infos'>
-          <div className="email">
-          <h2>Email: <span className='contact_info'>{email}</span></h2>
-          </div>
-          <div className="Phone">
-          <h2>Phone: <span className='contact_info'>{phone}</span></h2>
-          </div>
-          <div className="post">
-          <h2>Mailing Address: <span className='contact_info'>{address}</span></h2>
-          </div>
+      
+        <section className="corporate_info">
+          <p>
+            Mojave Corporate Offices <br/>
+            {email}
+          </p>
+
+          <p>
+            {phone} <br/>
+            {fax} <span className='subtext'>fax</span> <br/>
+            {address} <br/>
+          </p>
         </section>
+
+        <section className="recommended_companies">
+          <p className="title">Companies We Recommend:</p> <br/>
+
+          <p className="recommended_comapny">
+            <a href="#" target='_blank'><span className="first_Sentence">For flood, fire and mold damage cleanup and remediation we recommend ServiceMaster First Response. </span></a>
+             They can right on the water damage or other disaster quickly and work with your insurance company to make for a easy claim process. 
+          </p> <br/> 
+
+          <p className="recommended_comapny">
+            <a href="#" target='_blank'><span className="first_Sentence">For garment and soft goods restoration, contact SGR.</span></a>
+              Their Esporta Certified team can restore clothing and other soft goods after fires, sewage and mold damage has occurred.  Restore, Don't Replace!
+          </p> <br/>
+
+          <p className="recommended_comapny">
+            <a href="#" target='_blank'><span className="first_Sentence">For cleaning and restoration equipment sales, contact Mojave Supply.</span></a>
+            For cleaning and restoration equipment sales, contact Mojave Supply.  Their prices and customer service are fantastic.
+          </p> <br/>
+
+          <p className="recommended_comapny">
+            <a href="#" target='_blank'><span className="first_Sentence">Bed Bug Treatment Options</span></a>
+             - For bed bug heat eradication systems, you want to contact KillerHeat.  They specialize in heat treatment equipment and training.  Heat is the best way to kill bed bugs and their eggs
+          </p> <br/>
+
+        </section>
+
+
       </div>
     )
   }
