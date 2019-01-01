@@ -38,6 +38,8 @@ a, Link, ul, li {
   justify-content: space-evenly;
   align-items: center;
 }
+
+
 /* Home */
 #home {
   background-color: var(--secColor);
@@ -48,6 +50,7 @@ a, Link, ul, li {
   font-weight: 1000;
   font-size: 1.75rem;
 }
+
 /* About */
 
 /* Contact */
@@ -59,8 +62,22 @@ a, Link, ul, li {
 
 
 /* ----- Extra Small: iPhone 5/SE ----- */
-@media(max-width: 356) {
+@media(max-width: 359px) {
 /* Nav */
+#nav .burger_menu{
+  height: 20px;
+  width: 20px;
+  background-color: pink;  
+}
+
+#nav .nav_menu {
+  z-index: 10;
+
+}
+
+ {
+  background-color: pink;
+}
 
 /* Home */
 
@@ -75,7 +92,7 @@ a, Link, ul, li {
 
 
 /* ----- Small: larger cell phones ----- */
-@media(min-width: 360) and (max-width: 414) {
+@media(min-width: 360px) and (max-width: 414px) {
 /* Nav */
 
 /* Home */
@@ -91,7 +108,7 @@ a, Link, ul, li {
 
 
 /* ----- Medium: Small Tablets ----- */
-@media(min-width: 415) and (max-width: 767) {
+@media(min-width: 415px) and (max-width: 767px) {
 /* Nav */
 
 /* Home */
@@ -107,7 +124,7 @@ a, Link, ul, li {
 
 
 /* ----- Tables: Tablets ----- */
-@media(min-width: 768 ) and (max-width: 1024) {
+@media(min-width: 768px) and (max-width: 1024px) {
 /* Nav */
 
 /* Home */
@@ -123,7 +140,7 @@ a, Link, ul, li {
 
 
 /* ----- Large: Computer Monitors ----- */
-@media(min-width: 1025) {
+@media(min-width: 1025px) {
 /* Nav */
 
 /* Home */

@@ -23,7 +23,7 @@ class Nav extends Component {
     return (
       <div id='nav'>
         <h1>Mojave Corporation</h1>
-        <ul className = {showDrawer ? 'open' : 'close'}>
+        <ul className = {'nav_Menu' + showDrawer ? ' open' : ' close'}>
           <li><Link className='link link_1' to='/' >Home</Link></li>
           <li><Link className='link link_2' to='/About' >About</Link></li>
           <li><Link className='link link_3' to='/Contact' >Contact</Link></li>
