@@ -64,21 +64,34 @@ a, Link, ul, li {
 /* ----- Extra Small: iPhone 5/SE ----- */
 @media(max-width: 359px) {
 /* Nav */
-#nav .burger_menu{
+.burger_menu{
   height: 20px;
   width: 20px;
   background-color: pink;  
 }
 
-#nav .nav_menu {
+.nav_menu {
   z-index: 10;
+  position: fixed;
+  background-color: rgba(0, 0, 0, .8);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
 
 }
 
- {
-  background-color: pink;
+.link  {
+  color: var(--white);
+  font-weight: 300;
+  font-size: 40px;
+  border: solid var(--white) 1px;
+  padding: 2rem;
 }
-
 /* Home */
 
 /* About */
