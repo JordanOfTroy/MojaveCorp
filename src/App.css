@@ -8,10 +8,10 @@
 
 
 /* ----- Universal Styling ----- */
-/* Universal */
 
 h1, h2, p, span {
   color: var(--black);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a, Link, ul, li {
@@ -39,7 +39,15 @@ a, Link, ul, li {
   align-items: center;
 }
 /* Home */
+#home {
+  background-color: var(--secColor);
+}
 
+#home h1 {
+  margin: 2rem 0;
+  font-weight: 1000;
+  font-size: 1.75rem;
+}
 /* About */
 
 /* Contact */
