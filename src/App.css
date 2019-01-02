@@ -178,10 +178,27 @@ opacity: 0;
 
 /* About */
 .founders_image {
-  width: 80vw;
+  width: 85vw;
   height: auto;
-  box-shadow: var(--shadow)
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
 }
+
+#about > article {
+  width: 85vw;
+  height: auto;
+  background-color: var(--mainColor);
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+}
+
+#about > article p {
+  text-indent: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: .08rem;
+}
+
 
 /* Contact */
 
