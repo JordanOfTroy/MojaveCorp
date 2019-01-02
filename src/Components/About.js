@@ -20,7 +20,7 @@ class About extends Component {
       <div id='about'>
         <h1>Who We are</h1>
         
-        <img src={foundersImage} alt="Image of the founders of Mojave Corporation"/>
+        <img className='founders_image' src={foundersImage} alt="Image of the founders of Mojave Corporation"/>
         
         <article>
           <p>

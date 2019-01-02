@@ -4,6 +4,7 @@
   --secColor: #907a70;
   --black: #1b1b1b;
   --white: #edf6f6;
+  --shadow: 2px 2px 5px var(--black);
 }
 
 
@@ -19,7 +20,7 @@ a, Link, ul, li {
 
 }
 
-#nav, #home, #about, #contact, #footer, .burger_menu{
+#nav, #home, #about, #contact, #footer, .burger_menu, .subcid{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,21 +36,30 @@ a, Link, ul, li {
   background-color: var(--mainColor);
   width: 100vw;
   height: 4rem;
+  max-width: 100%;
   justify-content: space-evenly;
   align-items: center;
 }
 
 
-/* Home */
-#home {
+#home, #about {
+  width: 100vw;
   background-color: var(--secColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#home h1 {
+#home h1, #about h1 {
   margin: 2rem 0;
   font-weight: 1000;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--white);
 }
+
+/* Home */
 
 /* About */
 
@@ -135,9 +145,43 @@ opacity: 0;
   letter-spacing: .1rem;
 
 }
+
 /* Home */
 
+.subcid {
+  /* border: 1px solid var(--white); */
+  margin: 2rem 2rem;
+  background-color: var(--mainColor);
+  box-shadow: var(--shadow);
+
+}
+
+.subcid_image, .subcid > a {
+  width: 100%;
+  height: auto;
+
+}
+
+.description {
+  padding: 1rem;
+}
+
+.description h2 {
+  text-decoration: underline;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.description p {
+  text-indent: 1rem;
+}
+
 /* About */
+.founders_image {
+  width: 80vw;
+  height: auto;
+  box-shadow: var(--shadow)
+}
 
 /* Contact */
 
