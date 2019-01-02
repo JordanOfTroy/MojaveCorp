@@ -9,7 +9,7 @@
 
 /* ----- Universal Styling ----- */
 
-h1, h2, p, span {
+h1, h2, p, span, Link, li, ul {
   color: var(--black);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,7 +19,7 @@ a, Link, ul, li {
 
 }
 
-#nav, #home, #about, #contact, #footer {
+#nav, #home, #about, #contact, #footer, .burger_menu{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,13 +62,39 @@ a, Link, ul, li {
 
 
 /* ----- Extra Small: iPhone 5/SE ----- */
-@media(max-width: 359px) {
+@media(max-width: 380px) {
 /* Nav */
 .burger_menu{
-  height: 20px;
-  width: 20px;
-  background-color: pink;  
+  height: 2rem;
+  width: 2.5rem;
+  justify-content: space-between;
+  position: relative;
+  left: 1rem;
+
 }
+
+.patty {
+  height: .35rem;
+  width: 2.5rem;
+  background-color: var(--black);
+  border-radius: 10rem;
+  transition: .6s
+}
+
+.lean_left {
+transform: rotate(405deg) translate(9px, 10px);
+
+}
+
+.lean_right{
+transform: rotate(675deg) translate(9px, -9px);
+}
+
+.go_away {
+transform: rotate(360deg);
+opacity: 0;
+}
+
 
 .nav_menu {
   z-index: 10;
@@ -76,21 +102,31 @@ a, Link, ul, li {
   background-color: rgba(0, 0, 0, .8);
   width: 100vw;
   height: 100vh;
-  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  transition: .6s;
+  
+}
 
+.nav_menu.close {
+  top: -100vh;
+}
 
+.nav_menu.open {
+  top: 0;
 }
 
 .link  {
   color: var(--white);
   font-weight: 300;
   font-size: 40px;
+  letter-spacing: .15rem;
   border: solid var(--white) 1px;
   padding: 2rem;
+  box-shadow: 0px 0px 15px var(--mainColor);
+  background-color: var(--black);
 }
 /* Home */
 
