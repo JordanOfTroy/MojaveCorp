@@ -62,21 +62,20 @@ a, Link, ul, li {
 
 
 /* ----- Extra Small: iPhone 5/SE ----- */
-@media(max-width: 380px) {
+@media(max-width: 420px) {
 /* Nav */
 .burger_menu{
   height: 2rem;
   width: 2.5rem;
   justify-content: space-between;
   position: relative;
-  left: 1rem;
 
 }
 
 .patty {
   height: .35rem;
   width: 2.5rem;
-  background-color: var(--black);
+  background-color: var(--white);
   border-radius: 10rem;
   transition: .6s
 }
@@ -127,6 +126,14 @@ opacity: 0;
   padding: 2rem;
   box-shadow: 0px 0px 15px var(--mainColor);
   background-color: var(--black);
+}
+
+#nav > h1 {
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+
 }
 /* Home */
 
