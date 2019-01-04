@@ -225,8 +225,40 @@ opacity: 0;
 
 
 /* ----- Medium: Small Tablets ----- */
-@media(min-width: 415px) and (max-width: 767px) {
+@media(min-width: 760px) and (max-width: 1050px) {
 /* Nav */
+#nav > h1 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.burger_menu {
+  display: none;
+}
+
+.nav_menu {
+  width: 30%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: 3.5rem;
+}
+
+.link {
+  border: 1px solid var(--white);
+  padding: .5rem;
+  color: var(--white);
+}
+
+.link:hover, .link:active {
+  background-color: var(--white);
+  color: var(--mainColor);
+}
+
+
 
 /* Home */
 
