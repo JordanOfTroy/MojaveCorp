@@ -26,9 +26,9 @@ class Home extends Component {
 
           <div className="subcid">
             <a href="http://www.mojavesupply.com/" target="_blank">
-              <img src={MS} alt="company logo" className="subcid_image" />
+              <img src={MS} alt="company logo" className=" subcid_item subcid_image" />
             </a>
-            <div className="description">
+            <div className=" subcid_item description">
               <a href="http://www.mojavesupply.com/" target="_blank">
                 <h2>Mojave Supply</h2>
               </a>
