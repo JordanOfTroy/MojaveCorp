@@ -4,7 +4,7 @@
   --secColor: #907a70;
   --black: #1b1b1b;
   --white: #edf6f6;
-  --shadow: 2px 2px 5px var(--black);
+  --shadow: 2px 2px 7px var(--black);
 }
 
 
@@ -203,6 +203,7 @@ opacity: 0;
 
 .nav_menu.close {
   top: -100vh;
+  transition-delay: 300ms;
 }
 
 .nav_menu.open {
@@ -218,6 +219,11 @@ opacity: 0;
   padding: 2rem;
   box-shadow: 0px 0px 15px var(--mainColor);
   background-color: var(--black);
+}
+
+.link:active {
+  color: var(--black);
+  background-color: var(--white);
 }
 
 #nav > h1 {
@@ -272,6 +278,12 @@ margin-bottom: 1rem;
 }
 
 /* About */
+#about {
+  position: relative;
+  justify-content: flex-start;
+  height: auto;
+}
+
 .founders_image {
   width: 85vw;
   height: auto;
@@ -296,6 +308,11 @@ margin-bottom: 1rem;
 
 
 /* Contact */
+#contact {
+  position: relative;
+  justify-content: flex-start;
+  height: 100vh;
+}
 
 /* Footer */
 }
