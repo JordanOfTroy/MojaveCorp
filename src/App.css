@@ -167,8 +167,8 @@ a, Link, ul, li {
 @media (min-width: 320px ) and (max-width: 420px) {
 /* Nav */
 .burger_menu{
-  height: 2rem;
-  width: 2.5rem;
+  height: 1.5rem;
+  width: .25rem;
   justify-content: space-between;
   position: relative;
   z-index: 50;
@@ -238,9 +238,10 @@ opacity: 0;
 
 #nav > h1 {
   color: var(--white);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: bold;
   letter-spacing: .1rem;
+  text-transform: uppercase;
 
 }
 
