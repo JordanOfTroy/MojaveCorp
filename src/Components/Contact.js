@@ -49,7 +49,7 @@ class Contact extends Component {
             For cleaning and restoration equipment sales, contact Mojave Supply.  Their prices and customer service are fantastic.
           </p> <br/>
 
-          <p className="recommended_company">
+          <p className="recommended_company last">
             <a href="#" target='_blank'><span className="first_Sentence">Bed Bug Treatment Options: </span></a>
              For bed bug heat eradication systems, you want to contact KillerHeat.  They specialize in heat treatment equipment and training.  Heat is the best way to kill bed bugs and their eggs
           </p> <br/>
