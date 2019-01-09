@@ -1,7 +1,11 @@
 /* ----- Variables ------ */
 :root{
   --mainColor: #73aba6;
+  --mainColorDark: #26403e;
+  --mainColorLight: #bfd9d7;
   --secColor: #907a70;
+  --secColDark: #483d37;
+  --secColLight: #c8bcb7;
   --black: #1b1b1b;
   --white: #edf6f6;
   --shadow: 2px 2px 7px var(--black);
@@ -311,8 +315,45 @@ margin-bottom: 1rem;
 #contact {
   position: relative;
   justify-content: flex-start;
-  height: 100vh;
+  width: 100%;
+  height: auto;
 }
+
+#contact > section {
+  margin: 1rem;
+  background-color: var(--mainColor);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#contact > section > h1 {
+  position: relative;
+  color: var(--white);
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#contact > section > p, .first_Sentence {
+  color: var(--white);
+  line-height: 1.5rem;
+}
+
+.first_Sentence {
+  text-decoration-line: underline;
+  font-weight: 700;
+  color: var(--mainColorDark);
+}
+
+.recommended_company {
+  text-indent: 1rem;
+}
+
 
 /* Footer */
 }
