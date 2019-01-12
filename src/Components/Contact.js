@@ -17,6 +17,8 @@ class Contact extends Component {
     let address = 'P.O. Box ###### somestreet Ave, Provo, UT 84604'
     return (
       <div id='contact'>
+
+        <h1>Contact Information</h1>
       
         <section className="corporate_info  ">
           <h1>
