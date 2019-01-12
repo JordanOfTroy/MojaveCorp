@@ -220,6 +220,7 @@ a, Link, ul, li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--white);
 }
 
 #contact > section > h1 {
@@ -232,7 +233,7 @@ a, Link, ul, li {
 #contact > section > p, .first_Sentence {
   color: var(--mainColorDark);
   font-size: 1.1rem;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 }
 
 #contact > section > p {
