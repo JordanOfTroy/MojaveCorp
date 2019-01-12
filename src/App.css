@@ -70,6 +70,8 @@ a, Link, ul, li {
   color: var(--white);
 }
 
+
+
 /* Home */
 
 /* About */
@@ -82,6 +84,10 @@ a, Link, ul, li {
 @media(min-width: 1051px) {
 
 /* Nav */
+#nav {
+  height: 5rem;
+}
+
 .nav_menu {
   display: flex;
   justify-content: space-between;
@@ -89,7 +95,7 @@ a, Link, ul, li {
   width: 700px;
   height: 100%;
   position: relative;
-  left: 40rem;
+  left: 30rem;
 }
 
 #nav > h1 {
@@ -116,8 +122,48 @@ a, Link, ul, li {
 }
 
 
-
 /* Home */
+#home {
+  position: relative;
+  justify-content: flex-start;
+}
+
+#home > h1 {
+  color: var(--mainColorDark);
+  font-size: 5rem;
+  margin: 7rem;
+  padding-bottom: 4rem;
+}
+
+.subcids {
+  position: relative;
+  width: 80%;
+  height: auto;
+  padding: 1rem;
+  border: solid 1px var(--mainColorDark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcid {
+  position: relative;
+  width: 600px;
+  height: 600px; 
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  margin: 2rem;
+  justify-content: flex-start;
+}
+
+.subcid_image, .subcid > a {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: auto;
+}
+
+
 
 /* About */
 
