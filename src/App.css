@@ -80,12 +80,13 @@ a, Link, ul, li {
 
 
 /* ----- Medium: Small Tablets ----- */
-@media(min-width: 760px) and (max-width: 1050px) {
+@media(min-width: 768px) and (max-width: 1050px) {
   /* Nav */
   #nav > h1 {
     color: var(--white);
-    font-weight: 700;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-transform: uppercase;
   }
   
   .burger_menu {
@@ -119,6 +120,10 @@ a, Link, ul, li {
   #home {
    justify-content: flex-start;
   }
+
+  #home > h1 {
+    color: var(--mainColorDark);
+  }
   
   .subcids {
     display: flex;
@@ -128,7 +133,7 @@ a, Link, ul, li {
   }
   
   .subcid {
-    background-color: var(--mainColor);
+    background-color: var(--white);
     box-shadow: var(--shadow);
     width: 90%;
     display: flex;
@@ -153,18 +158,17 @@ a, Link, ul, li {
   
   /* About */
   
+  
   /* Contact */
   
   /* Footer */
   }
 
-@media (min-width: 421px) and (max-width: 759px) {
 
-}
 
 
 /* ----- Extra Small: iPhone 5/SE ----- */
-@media (min-width: 320px ) and (max-width: 420px) {
+@media (min-width: 320px ) and (max-width: 767px) {
 /* Nav */
 .burger_menu{
   height: 1.5rem;
@@ -183,12 +187,12 @@ a, Link, ul, li {
 }
 
 .lean_left {
-transform: rotate(405deg) translate(9px, 10px);
+transform: rotate(405deg) translate(3px, 10px);
 
 }
 
 .lean_right{
-transform: rotate(675deg) translate(9px, -9px);
+transform: rotate(675deg) translate(4px, -9px);
 }
 
 .go_away {
