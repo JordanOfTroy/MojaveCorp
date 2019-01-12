@@ -13,8 +13,8 @@ class Contact extends Component {
   render() {
     let email='support@mojavecorporation.com'
     let phone = '866-670-1395'
-    let fax = '###-###-####'
-    let address = 'P.O. Box ###### somestreet Ave, Provo, UT 84604'
+    // let fax = '###-###-####'
+    let address = '4216 Crestview Avenue, Provo, Utah 84604'
     return (
       <div id='contact'>
 
@@ -26,10 +26,10 @@ class Contact extends Component {
           </h1>
 
           <p>
-            {email} <br/>
-            {phone} <br/>
-            {fax} <span className='subtext'>fax</span> <br/>
-            {address} <br/>
+            Email: {email} <br/>
+            Phone: {phone} <br/>
+            {/* Fax: {fax} <br/> */}
+            Mailing Address: {address} <br/>
           </p>
         </section>
 
