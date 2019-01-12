@@ -171,7 +171,7 @@ a, Link, ul, li {
   }
 
   .founders_image {
-    width: 60vw;
+    width: 70%;
     height: auto;
     box-shadow: var(--shadow);
     margin-bottom: 2rem;
@@ -181,7 +181,7 @@ a, Link, ul, li {
 
   #about > article {
     position: relative;
-    width: 80%;
+    width: 75%;
     padding: 1rem;
     margin: 1rem;
     box-shadow: var(--shadow);
@@ -189,6 +189,13 @@ a, Link, ul, li {
     border-radius: 5px;
   }
   
+#about > article > p {
+  margin: 1rem;
+  color: var(--mainColorDark);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
   /* Contact */
   
   /* Footer */
