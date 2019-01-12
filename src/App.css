@@ -119,6 +119,7 @@ a, Link, ul, li {
   /* Home */
   #home {
    justify-content: flex-start;
+   position: relative;
   }
 
   #home > h1 {
@@ -157,7 +158,36 @@ a, Link, ul, li {
   }
   
   /* About */
-  
+  #about {
+    justify-content: flex-start;
+    align-content: space-between;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  #about > h1 {
+    color: var(--mainColorDark);
+  }
+
+  .founders_image {
+    width: 60vw;
+    height: auto;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+    border-radius: 100px 10px;
+    position: relative;
+  }
+
+  #about > article {
+    position: relative;
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: var(--shadow);
+    background-color: var(--white);
+    border-radius: 5px;
+  }
   
   /* Contact */
   
