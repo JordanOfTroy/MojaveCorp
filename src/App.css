@@ -147,7 +147,7 @@ a, Link, ul, li {
 }
 
 .subcid {
-  position: relative;
+  /* position: relative; */
   width: 600px;
   height: 600px; 
   background-color: var(--white);
@@ -166,9 +166,53 @@ a, Link, ul, li {
 
 
 /* About */
+#about {
+  justify-content: flex-start;
+  position: relative;
+}
+
+#about > h1 {
+  color: var(--mainColorDark);
+  font-size: 5rem;
+  margin: 7rem;
+  padding-bottom: 4rem;
+}
+
+.founders_image {
+  box-shadow: var(--shadow);
+  border-radius: 100px 10px;
+  width: 900px;
+  height: auto;
+  margin: 1rem;
+}
+
+#about > article {
+  background-color: var(--white);
+  width: 900px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: var(--shadow);
+  border-radius: 5px;
+
+}
+
+#about > article > p {
+  margin: 1rem;
+  font-size: 2rem;
+}
 
 /* Contact */
+#contact {
+  justify-content: flex-start;
+  position: relative;
+}
 
+#contact > h1 {
+  color: var(--mainColorDark);
+  font-size: 5rem;
+  margin: 7rem;
+  padding-bottom: 4rem;
+}
 /* Footer */
 
 }
