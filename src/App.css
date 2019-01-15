@@ -105,7 +105,7 @@ a, Link, ul, li {
 #nav > h1 {
   color: var(--white);
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.7rem;
   letter-spacing: .5rem;
 }
 
@@ -130,41 +130,37 @@ a, Link, ul, li {
 #home {
   position: relative;
   justify-content: flex-start;
+  width: 100vw;
+  height: auto;
 }
 
 #home > h1 {
   color: var(--mainColorDark);
-  font-size: 5rem;
-  margin: 7rem;
+  font-size: 3rem;
+  margin: 3rem;
   padding-bottom: 4rem;
 }
 
 .subcids {
   position: relative;
-  width: 80%;
+  border: solid red 1px;
+  width: 80vw;
   height: auto;
-  padding: 1rem;
-  border: solid 1px var(--mainColorDark);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 2rem;
+  
 }
 
 .subcid {
-  /* position: relative; */
-  width: 600px;
-  height: 600px; 
-  background-color: var(--white);
+  margin: 1rem;
+  background: var(--white);
   box-shadow: var(--shadow);
-  margin: 2rem;
-  justify-content: flex-start;
+  height: 350px;
+  width: 350px;
+  
 }
 
 .subcid_image, .subcid > a {
-  position: relative;
-  top: 0px;
-  width: 100%;
-  height: auto;
+  
 }
 
 
