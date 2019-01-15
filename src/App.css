@@ -169,21 +169,24 @@ a, Link, ul, li {
 #about {
   justify-content: flex-start;
   position: relative;
+  width: 100vw;
+  height: auto;
 }
 
 #about > h1 {
   color: var(--mainColorDark);
-  font-size: 5rem;
-  margin: 7rem;
-  padding-bottom: 4rem;
+  font-size: 3rem;
+  margin: 3rem;
+  padding-bottom: 2rem;
 }
 
 .founders_image {
   box-shadow: var(--shadow);
   border-radius: 100px 10px;
-  width: 900px;
+  width: 500px;
   height: auto;
   margin: 1rem;
+  position: relative;
 }
 
 #about > article {
@@ -193,12 +196,14 @@ a, Link, ul, li {
   margin: 1rem;
   box-shadow: var(--shadow);
   border-radius: 5px;
+  line-height: 1.7rem;
 
 }
 
 #about > article > p {
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  
 }
 
 /* Contact */
